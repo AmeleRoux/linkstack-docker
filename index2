@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Remanufacture</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            background-color: #fff;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-top: 50px;
+            object-fit: cover;
+        }
+        h1 {
+            margin-top: 24px;
+            font-size: 24px;
+            font-weight: regular;
+            color: #000;
+        }
+        h2 {
+            margin: 5px 0;
+            font-size: 18px;
+            color: #333;
+            font-weight: normal;
+        }
+        .link-container {
+            width: 100%;
+            max-width: 400px;
+            margin-top: 30px;
+            text-align: center;
+        }
+        .link-container a {
+            text-decoration: none;
+            color: white;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 10px;
+            display: block;
+            font-size: 18px;
+        }
+        .link-paris-design-week {
+            background-color: #00244C; /* Couleur bleu foncé */
+        }
+        .link-paris-design-week:hover {
+            background-color: #001b3a; /* Couleur plus foncée pour le survol */
+        }
+        .link-primary {
+            background-color: #1e3a8a; /* Couleur bleue foncée */
+            background-image: linear-gradient(to right, #4f46e5, #1e3a8a);
+        }
+        .link-primary:hover {
+            background-color: #1a2e6d;
+        }
+        .link-secondary {
+            background-color: #007bff; /* Couleur bleue pour le lien email */
+        }
+        .link-secondary:hover {
+            background-color: #0056b3;
+        }
+        .icon {
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+    <!-- Photo de profil -->
+    <img src="https://zupimages.net/up/24/36/xkcp.png" alt="Photo de profil" class="profile-picture">
+
+    <!-- Nom ou titre -->
+    <h1>La Remanufacture</h1>
+    <h2>Alexandre Bouton</h2>
+    <h2>X</h2>
+    <h2>La Remanufacture</h2>
+
+    <!-- Liens -->
+    <div class="link-container">
+        <!-- Lien vers Paris Design Week 2024 -->
+        <a href="https://www.parisdesignweek.fr/en/" class="link-paris-design-week" target="_blank">
+            <img src="https://zupimages.net/up/24/36/63bh.png" alt="icon" class="icon" width="20" height="20"> Paris Design Week 2024
+        </a>
+        <!-- Lien vers La Remanufacture -->
+        <a href="https://laremanufacture.com" class="link-primary">
+            <img src="https://zupimages.net/up/24/36/fbjk.png" alt="icon" class="icon" width="16" height="16"> La Remanufacture
+        </a>
+        <!-- Lien de contact -->
+        <a href="mailto:contact@laremanufacture.fr" class="link-secondary">
+            <img src="https://zupimages.net/up/24/36/ayqd.png" alt="icon" class="icon" width="18" height="14"> contact@laremanufacture.fr
+        </a>
+    </div>
+</body>
+</html>
